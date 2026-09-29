@@ -1,0 +1,27 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Arial,92,&H00FFFFFF,&H000000FF,&H004B2B12,&H66000000,-1,0,0,0,100,100,0,0,1,5,1,5,80,80,0,1
+Style: Caption,Arial,56,&H00FFFFFF,&H000000FF,&H004B2B12,&H88000000,-1,0,0,0,100,100,0,0,1,4,1,2,80,80,190,1
+Style: Prompt,Arial,58,&H003438F8,&H000000FF,&H00FFFFFF,&HAAFFFFFF,-1,0,0,0,100,100,0,0,1,5,0,2,80,80,210,1
+Style: Tag,Arial,36,&H00FFF7D6,&H000000FF,&H003D2717,&H66000000,-1,0,0,0,100,100,0,0,1,3,0,7,70,70,72,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 4,0:00:00.00,0:00:03.10,Title,,0,0,0,,{\fad(120,180)\pos(540,270)}The Tiny Idea
+Dialogue: 4,0:00:00.25,0:00:03.10,Caption,,0,0,0,,{\fad(140,160)}Milo had a big problem.
+
+Dialogue: 4,0:00:03.10,0:00:06.80,Caption,,0,0,0,,{\fad(140,160)}Every morning felt too heavy.
+Dialogue: 4,0:00:06.80,0:00:10.50,Caption,,0,0,0,,{\fad(140,160)}Then one tiny idea showed up.
+Dialogue: 4,0:00:10.50,0:00:14.30,Caption,,0,0,0,,{\fad(140,160)}"Just start with one small step."
+Dialogue: 4,0:00:14.30,0:00:18.20,Caption,,0,0,0,,{\fad(140,160)}So Milo tried it.
+Dialogue: 4,0:00:18.20,0:00:22.60,Caption,,0,0,0,,{\fad(140,160)}The problem did not vanish...
+Dialogue: 4,0:00:20.40,0:00:22.60,Title,,0,0,0,,{\fad(120,140)\pos(540,300)}but Milo moved.
+Dialogue: 4,0:00:22.60,0:00:27.00,Prompt,,0,0,0,,{\fad(140,220)}What is your tiny step today?
+
+Dialogue: 5,0:00:00.00,0:00:27.00,Tag,,0,0,0,,{\pos(70,75)}@YourChannel
